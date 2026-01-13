@@ -39,7 +39,7 @@ query = st.text_input("Ask a question about the document:")
 
 if uploaded_files and query:
     # Use your new secret key here
-    api_key = "YOUR API KEY"
+    api_key = "PASTE API KEY HERE"
 
     # 1. Extract Text (Cached)
     with st.spinner(f"Reading {len(uploaded_files)} documents..."):
